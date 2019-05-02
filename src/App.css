@@ -1,7 +1,16 @@
+.margin-adjust {
+  max-width: 1200px;
+}
+.header-text {
+  font-weight: bold !important;
+}
 .header-color {
   background: #1a2a6c;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgb(7, 9, 30) 0%, rgb(45, 53, 72) 100%);
+}
+.header-color .mdl-layout-title {
+  font-weight: bold !important;
 }
 .complete-cell {
   padding-top: 30px;
@@ -9,7 +18,7 @@
 .landing-grid {
   background: #1a2a6c;
   background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
-  background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
+  background: linear-gradient(to right, rgb(7, 9, 30) 0%, rgb(45, 53, 72) 100%);
   position: fixed;
   top: 0;
   left: 0;
@@ -66,4 +75,16 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.content {
+  overflow: auto;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  float: left;
 }
