@@ -3,22 +3,33 @@
 }
 .header-text {
   font-weight: bold !important;
+  color: #111111 !important;
 }
-.header-color {
-  background: #1a2a6c;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+/* .header-color {
+  background: #1a2a6c;
+  background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
   background: linear-gradient(to right, rgb(7, 9, 30) 0%, rgb(45, 53, 72) 100%);
 }
 .header-color .mdl-layout-title {
   font-weight: bold !important;
+} */
+.mdl-layout-title {
+  font-weight: bold;
+  color: #111111 !important;
 }
+
+.mdl-layout__drawer-button i{
+  color: #111111 !important;
+}
+
 .complete-cell {
   padding-top: 30px;
 }
 .landing-grid {
   background: #1a2a6c;
-  background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
-  background: linear-gradient(to right, rgb(7, 9, 30) 0%, rgb(45, 53, 72) 100%);
+  /* background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); */
+  /* background: linear-gradient(to right, rgb(7, 9, 30) 0%, rgb(45, 53, 72) 100%); */
+  background: url('background.jpg') no-repeat center/cover fixed;
   position: fixed;
   top: 0;
   left: 0;
@@ -126,4 +137,60 @@
 .contact-list i{
   font-size: 40px;
   padding-right: 2rem;
+}
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+.resume-right-col .resume-right-col-heading {
+  font-family: 'Anton', sans-serif;
+}
+.left-education-col p, .left-experience-col p {
+  font-size: 28px;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+.right-education-col h4, .right-experience-col h4 {
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-family: 'Anton', sans-serif;
+}
+
+.right-education-col p, .right-experience-col p {
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-family: 'Oxygen', sans-serif;
+  white-space: pre-wrap;
+}
+
+.right-experience-col p.description {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.margin-cancel {
+  margin-bottom: 0px;
+  width: 150px;
+}
+
+.button-class {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-class .mdl-button {
+  height: 80px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.button-class .mdl-button p {
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
